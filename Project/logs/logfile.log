@@ -1,0 +1,80 @@
+2025-04-14 17:32:29,249 INFO  utils.LoggerHandler - Clicked on search bar
+2025-04-14 17:32:29,964 INFO  utils.LoggerHandler - Entered ADIDAS
+2025-04-14 17:32:30,824 INFO  utils.LoggerHandler - Clicked on Go Button
+2025-04-14 17:32:52,375 INFO  utils.LoggerHandler - Verification Successful: https://sportsjam.in/catalogsearch/result/?q=ADIDAS
+2025-04-14 17:32:52,792 INFO  utils.LoggerHandler - Clicked on Rocket Sports
+2025-04-14 17:32:54,266 INFO  utils.LoggerHandler - Clicked on Shoes
+2025-04-14 17:32:54,456 INFO  utils.LoggerHandler - Verification Successful: SEARCH RESULTS FOR: 'ADIDAS'
+2025-04-14 17:32:56,490 INFO  utils.LoggerHandler - Clicked on remove racket
+2025-04-14 17:32:56,602 INFO  utils.LoggerHandler - Verification Successful: SEARCH RESULTS FOR: 'ADIDAS'
+2025-04-14 17:32:58,084 INFO  utils.LoggerHandler - Clicked on Clothing
+2025-04-14 17:32:59,609 INFO  utils.LoggerHandler - Clicked on Accessories
+2025-04-14 17:33:01,096 INFO  utils.LoggerHandler - Clicked on Running
+2025-04-14 17:33:46,304 INFO  utils.LoggerHandler - Clicked on ClearAll
+2025-04-14 17:33:46,369 INFO  utils.LoggerHandler - Verification Successful: SEARCH RESULTS FOR: 'ADIDAS'
+2025-04-14 17:34:00,284 INFO  utils.LoggerHandler - Verification Successful: Buy Yonex, Babolat, Head, Li-Ning Badminton Rackets Online in India
+2025-04-14 17:34:08,054 INFO  utils.LoggerHandler - Verification Successful: Buy Yonex Arcsaber 2 Feel Badminton Racket (Strung, Black/Green) Online
+2025-04-14 17:34:08,103 INFO  utils.LoggerHandler - Verification Successful: ADD TO CART
+2025-04-14 17:34:09,717 INFO  utils.LoggerHandler - Verification Successful: SHOPPING CART
+2025-04-14 17:34:10,387 INFO  utils.LoggerHandler - Verification Successful: PRODUCT ADDED TO CART
+2025-04-14 17:34:24,489 INFO  utils.LoggerHandler - Verification Successful: Buy Yonex - Asics and Babolat Badminton Shoes Online in India
+2025-04-14 17:34:45,699 INFO  utils.LoggerHandler - Verification Successful: https://sportsjam.in/buy-clothing-online-india
+2025-04-14 17:34:45,737 INFO  utils.LoggerHandler - Verification Successful: CLOTHING
+2025-04-14 17:34:55,199 INFO  utils.LoggerHandler - Verification Successful: YOU ADDED PRODUCT YONEX MENS SHORTS (2692-JET BLACK) TO THE COMPARISON LIST.
+2025-04-14 17:34:58,175 INFO  utils.LoggerHandler - Verification Successful: YOU ADDED PRODUCT YONEX MENS SHORTS (2693-JET BLACK) TO THE COMPARISON LIST.
+2025-04-14 17:35:01,392 INFO  utils.LoggerHandler - Verification Successful: https://sportsjam.in/catalog/product_compare/
+2025-04-14 17:35:06,815 INFO  utils.LoggerHandler - Verification Successful: YOU REMOVED PRODUCT YONEX MENS SHORTS (2692-JET BLACK) FROM THE COMPARISON LIST.
+2025-04-14 17:35:10,290 ERROR utils.LoggerHandler - stale element reference: stale element not found
+  (Session info: chrome=135.0.7049.52)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.123+', java.version: '11.0.26'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [5e47906fbe3b57d4f8180a462b4030ac, getElementText {id=f.8203FE1D1E7E26BC694C941F92C56E01.d.E515AC8F7D4084D9F8B9D1B4F6CC0754.e.2075}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.52, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42673}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.135.4:4444/sessi..., se:cdpVersion: 135.0.7049.52, se:containerName: dbaebabfcccbdaccfccbbebfdbe..., se:noVncPort: 7900, se:vnc: ws://10.80.135.4:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.135.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (5e47906fbe3b57d4f8180a462b4030ac)] -> xpath: //div[contains(text(),'You removed product Yonex Mens Shorts ')]]
+Session ID: 5e47906fbe3b57d4f8180a462b4030ac
+2025-04-14 17:35:10,806 INFO  utils.LoggerHandler - Verification Successful: YOU HAVE NO ITEMS TO COMPARE.
+2025-04-14 17:35:24,691 INFO  utils.LoggerHandler - Verification Successful: https://sportsjam.in/sports/cricket-equipment-store-online-india/cricket-protective-gear-shop-online-india/batting-gloves-cricket-shop-online-india
+2025-04-14 17:35:24,711 INFO  utils.LoggerHandler - Verification Successful: Batting Gloves Protective Gear Cricket Sports
+2025-04-14 17:35:32,973 INFO  utils.LoggerHandler - Clicked on Batting Leg Guards
+2025-04-14 17:35:33,192 INFO  utils.LoggerHandler - Verification Successful: https://sportsjam.in/sports/cricket-equipment-store-online-india/cricket-protective-gear-shop-online-india/batting-leg-guards-shop-online-india
+2025-04-14 17:35:33,306 INFO  utils.LoggerHandler - Verification Successful: Batting Leg Guards Protective Gear Cricket Sports
+2025-04-14 17:35:41,000 INFO  utils.LoggerHandler - Verification Successful: https://sportsjam.in/sports/cricket-equipment-store-online-india/cricket-protective-gear-shop-online-india/wicket-keeping-gloves-cricket-shop-online-india
+2025-04-14 17:35:41,121 INFO  utils.LoggerHandler - Verification Successful: Wicket Keeping Gloves Protective Gear Cricket Sports
+2025-04-14 17:35:48,174 INFO  utils.LoggerHandler - Verification Successful: https://sportsjam.in/sports/cricket-equipment-store-online-india/cricket-protective-gear-shop-online-india/wicket-keeping-leg-guards-shop-online-india
+2025-04-14 17:35:48,301 INFO  utils.LoggerHandler - Verification Successful: Wicket Keeping Leg Guards Protective Gear Cricket Sports
+2025-04-14 17:35:56,081 INFO  utils.LoggerHandler - Verification Successful: https://sportsjam.in/sports/cricket-equipment-store-online-india/cricket-protective-gear-shop-online-india/cricket-helmets-shop-online-india
+2025-04-14 17:36:03,013 INFO  utils.LoggerHandler - Verification Successful: https://sportsjam.in/sports/cricket-equipment-store-online-india/cricket-protective-gear-shop-online-india/cricket-inner-thigh-pads-shop-online-india
+2025-04-14 17:36:03,168 INFO  utils.LoggerHandler - Verification Successful: Inner Thigh Pads Protective Gear Cricket Sports
+2025-04-14 17:36:40,684 INFO  utils.LoggerHandler - Verification Successful: SHOP NOW
+2025-04-14 17:36:57,366 INFO  utils.LoggerHandler - Verification Successful: THANK YOU FOR REGISTERING WITH SPORTSJAM.
+2025-04-14 17:37:01,792 INFO  utils.LoggerHandler - Verification Successful: You have signed out and will go to our homepage in 5 seconds.
+2025-04-14 17:37:15,020 INFO  utils.LoggerHandler - Verification Successful: THE ACCOUNT SIGN-IN WAS INCORRECT OR YOUR ACCOUNT IS DISABLED TEMPORARILY. PLEASE WAIT AND TRY AGAIN LATER.
+2025-04-14 17:37:26,276 INFO  utils.LoggerHandler - Verification Successful: Customer Login
+2025-04-14 17:37:26,276 INFO  utils.LoggerHandler - Customer Login
+2025-04-14 17:37:27,631 ERROR utils.LoggerHandler - Assertion Error : Entered Wrong Credentials.expected:<[Delivery Informatio]n> but was:<[Customer Logi]n>
+2025-04-14 17:37:27,793 INFO  utils.LoggerHandler - Customer Login
+2025-04-14 17:37:30,757 INFO  utils.LoggerHandler - Verification Successful: Payment Options
+2025-04-14 17:37:30,758 INFO  utils.LoggerHandler - Payment Options
+2025-04-14 17:37:33,985 INFO  utils.LoggerHandler - Verification Successful: sportsjam frequently asked questions
+2025-04-14 17:37:33,985 INFO  utils.LoggerHandler - sportsjam frequently asked questions
+2025-04-14 17:37:37,103 INFO  utils.LoggerHandler - Verification Successful: returns policy
+2025-04-14 17:37:37,103 INFO  utils.LoggerHandler - returns policy
+2025-04-14 17:37:45,807 INFO  utils.LoggerHandler - Verification Successful: Sportsjam.in | Kolkata | Facebook
+2025-04-14 17:37:52,525 INFO  utils.LoggerHandler - Verification Successful: Sportsjam.in - YouTube
+2025-04-14 17:37:59,192 INFO  utils.LoggerHandler - Verification Successful: www.instagram.com
+2025-04-14 17:38:05,615 INFO  utils.LoggerHandler - Verification Successful: Sportsjam.in - Twitter
+2025-04-14 17:38:22,102 INFO  utils.LoggerHandler - Click on BRAND
+2025-04-14 17:38:22,613 INFO  utils.LoggerHandler - click on search bar
+2025-04-14 17:38:30,561 INFO  utils.LoggerHandler - Verification Successful: PUMA
+2025-04-14 17:38:51,907 INFO  utils.LoggerHandler - Verification Successful: PUMA WOMEN SPORT QUARTERS ASSORTED
+2025-04-14 17:39:05,670 INFO  utils.LoggerHandler - hover on shoes
+2025-04-14 17:39:24,429 INFO  utils.LoggerHandler - Verification Successful: BADMINTON SHOES
+2025-04-14 17:39:27,106 INFO  utils.LoggerHandler - Verification Successful: BADMINTON SHOES
+2025-04-14 17:39:30,876 INFO  utils.LoggerHandler - Verification Successful: BASKETBALL SHOES
+2025-04-14 17:39:35,907 INFO  utils.LoggerHandler - Verification Successful: CRICKET SHOES
+2025-04-14 17:39:41,987 INFO  utils.LoggerHandler - Verification Successful: FOOTBALL SHOES
+2025-04-14 17:39:41,996 INFO  utils.LoggerHandler - click on football
+2025-04-14 17:39:47,811 INFO  utils.LoggerHandler - Verification Successful: RUNNING SHOES
+2025-04-14 17:39:53,763 INFO  utils.LoggerHandler - Verification Successful: SQUASH SHOES
