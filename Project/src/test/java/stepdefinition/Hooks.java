@@ -20,20 +20,17 @@ public class Hooks extends Base{
     public static void extentBase(){
         reports = Reporter.generateExtentReport("SportsJam_Report");
     }
-
     @Before
     public void baseMethod(Scenario sc){
         openBrowser();
         test = reports.createTest(sc.getName());
     }
-
     @After
     public void quitDriver(){
         if(driver!= null){
             driver.quit();
         }
     }
-
     @AfterAll
     public static void extentFlush(){
         reports.flush();

@@ -14,7 +14,6 @@ import utils.DriverHelper;
 import utils.ExcelFileReader;
 import utils.LoggerHandler;
 import utils.ReadProperties;
-import utils.Reporter;
 import utils.Screenshot;
 
 public class NavBarActionPage {
@@ -253,7 +252,6 @@ public class NavBarActionPage {
 
             // Capture screenshot
             Screenshot.captureScreenShot("Team_sport");
-            Reporter.attachScreenshotToReport("Team Sport", test, "Screenshot attached to Report", Base.driver);
 
         } catch (Exception e) {
             LoggerHandler.error(e.getMessage());
@@ -363,7 +361,6 @@ public class NavBarActionPage {
 
             // Capture screenshot before proceeding
             Screenshot.captureScreenShot("Fitness_Gloves");
-            Reporter.attachScreenshotToReport("Fitness_Gloves", test, "Screenshot Attached", Base.driver);
 
             helper.waitForElementToBeVisible(NavBarDropDownLocators.Proceed_to_checkout, 1);
             helper.clickOnElement(NavBarDropDownLocators.Proceed_to_checkout);
