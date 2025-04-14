@@ -55,6 +55,7 @@ public class BrandActionPage extends Base {
  
         LoggerHandler.info("Click on " + helper.getText(NavBarLocator.brandNavBar));
         test.log(Status.INFO, "Click on " + helper.getText(NavBarLocator.brandNavBar));
+        System.out.println("git---");
     }
  
     /**
