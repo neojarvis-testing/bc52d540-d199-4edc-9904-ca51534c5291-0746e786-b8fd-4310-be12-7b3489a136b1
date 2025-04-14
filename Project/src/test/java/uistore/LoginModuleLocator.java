@@ -26,7 +26,7 @@ public class LoginModuleLocator {
         public static By passwordLogin = By.id("pass");
         public static By signIn = By.id("send2");
 
-        public static By verify5secWait = By.id("authenticationPopup");
+        public static By verify5secWait = By.xpath("//p[contains(text(),'You have signed out and will go to our homepage in 5 seconds.')]");
         public static By verifyErrorMessage = By
                         .cssSelector("[data-bind='html: $parent.prepareMessageForHtml(message.text)']");
 

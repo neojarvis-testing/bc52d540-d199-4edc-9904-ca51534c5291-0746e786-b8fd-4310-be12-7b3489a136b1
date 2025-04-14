@@ -1,10 +1,15 @@
+/home/coder/project/workspace/Project/src/test/java/stepdefinition/LoginModuleStepDefinition.java
 /home/coder/project/workspace/Project/src/test/java/uistore/FooterLocator.java
 /home/coder/project/workspace/Project/src/test/java/pages/BrandActionPage.java
 /home/coder/project/workspace/Project/src/test/java/utils/ExcelFileReader.java
+/home/coder/project/workspace/Project/src/test/java/stepdefinition/NavBarFitnessStepDefinition.java
+/home/coder/project/workspace/Project/src/test/java/stepdefinition/NavBarTeamSportStepDefinition.java
 /home/coder/project/workspace/Project/src/test/java/pages/RacketActionPage.java
+/home/coder/project/workspace/Project/src/test/java/stepdefinition/BrandStepDefinition.java
 /home/coder/project/workspace/Project/src/test/java/utils/ReadProperties.java
 /home/coder/project/workspace/Project/src/test/java/uistore/ProductDetailsLocator.java
 /home/coder/project/workspace/Project/src/test/java/pages/ShoesActionPage.java
+/home/coder/project/workspace/Project/src/test/java/stepdefinition/TeamsportsStepdefintions3.java
 /home/coder/project/workspace/Project/src/test/java/pages/FooterActionPage.java
 /home/coder/project/workspace/Project/src/test/java/pages/NavBarActionPage.java
 /home/coder/project/workspace/Project/src/test/java/uistore/LoginModuleLocator.java
@@ -22,4 +27,7 @@
 /home/coder/project/workspace/Project/src/test/java/stepdefinition/FooterLinksStepDefinitions.java
 /home/coder/project/workspace/Project/src/test/java/uistore/ProductsFilterLocator.java
 /home/coder/project/workspace/Project/src/test/java/utils/Assertion.java
+/home/coder/project/workspace/Project/src/test/java/stepdefinition/RacketSportsStepDefinitions.java
+/home/coder/project/workspace/Project/src/test/java/stepdefinition/RacketActionStepDefinition.java
 /home/coder/project/workspace/Project/src/test/java/runner/TestRunner.java
+/home/coder/project/workspace/Project/src/test/java/stepdefinition/ShoesStepDefinition.java

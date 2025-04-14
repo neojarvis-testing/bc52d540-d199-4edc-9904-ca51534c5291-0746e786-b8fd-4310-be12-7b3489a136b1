@@ -1,10 +1,8 @@
 package pages;
-
-import java.util.Set;
-import java.util.Iterator;
+ 
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-
+ 
 import stepdefinition.Hooks;
 import uistore.FooterLocator;
 import utils.Assertion;
@@ -13,11 +11,11 @@ import utils.DriverHelper;
 import utils.ExcelFileReader;
 import utils.LoggerHandler;
 import utils.ReadProperties;
-
+ 
 public class FooterActionPage {
     DriverHelper helper = new DriverHelper(Base.driver);
     String path = ReadProperties.prop.getProperty("path");
-
+ 
     /**
      * @Created by Pallavi
      * @Description Performs the registration or login process by interacting with the specified page elements. Validates the page title and logs the verification message and page details.
@@ -26,16 +24,15 @@ public class FooterActionPage {
      */
     public void clickRegisterLogin(ExtentTest test) {
         try {
-
+ 
             helper.waitForElementToBeVisible(FooterLocator.registerLogin, 5);
             helper.hoverOverElement(FooterLocator.registerLogin);
             helper.clickOnElement(FooterLocator.registerLogin);
             String actualTitle = ExcelFileReader.readExcelData(path, "Pallavi", 0, 0);
             String expectedTitle = Base.driver.getTitle();
-
-            Assertion.useAssert(actualTitle, expectedTitle, test);            
-            
-
+            Assertion.useAssert(actualTitle, expectedTitle, test);
+            LoggerHandler.info(expectedTitle);
+ 
         } catch (Exception e) {
             LoggerHandler.error(e.getMessage());
             Hooks.test.log(Status.FAIL, e.getMessage());
@@ -43,9 +40,9 @@ public class FooterActionPage {
             LoggerHandler.info(e.getMessage());
             Hooks.test.log(Status.INFO, e.getMessage());
         }
-
+ 
     }
-
+ 
     /**
      * @Created by Pallavi
      * @Description Interacts with the 'Delivery Charges' page element, validates the page title, and logs the verification message and page details.
@@ -54,16 +51,16 @@ public class FooterActionPage {
      */
     public void clickDeliveryCharges(ExtentTest test) {
         try {
-
+ 
             helper.waitForElementToBeVisible(FooterLocator.deliveryCharges, 5);
             helper.hoverOverElement(FooterLocator.deliveryCharges);
             helper.clickOnElement(FooterLocator.deliveryCharges);
             String actualTitle = ExcelFileReader.readExcelData(path, "Pallavi", 1, 0);
-
+ 
             String expectedTitle = Base.driver.getTitle();
             Assertion.useAssert(actualTitle, expectedTitle, test);
             LoggerHandler.info(expectedTitle);
-            
+           
         } catch (Exception e) {
             LoggerHandler.error(e.getMessage());
             Hooks.test.log(Status.FAIL, e.getMessage());
@@ -72,7 +69,7 @@ public class FooterActionPage {
             Hooks.test.log(Status.INFO, e.getMessage());
         }
     }
-
+ 
     /**
      * @Created by Pallavi
      * @Description Interacts with the 'Payment Options' page element, validates the page title, and logs the verification message and page details.
@@ -81,16 +78,16 @@ public class FooterActionPage {
      */
     public void clickPaymentOption(ExtentTest test) {
         try {
-
+ 
             helper.waitForElementToBeVisible(FooterLocator.paymentOptions, 5);
             helper.hoverOverElement(FooterLocator.paymentOptions);
             helper.clickOnElement(FooterLocator.paymentOptions);
             String actualTitle = ExcelFileReader.readExcelData(path, "Pallavi", 2, 0);
-
+ 
             String expectedTitle = Base.driver.getTitle();
             Assertion.useAssert(actualTitle, expectedTitle, test);
             LoggerHandler.info(expectedTitle);
-            
+           
         } catch (Exception e) {
             LoggerHandler.error(e.getMessage());
             Hooks.test.log(Status.FAIL, e.getMessage());
@@ -99,7 +96,7 @@ public class FooterActionPage {
             Hooks.test.log(Status.INFO, e.getMessage());
         }
     }
-
+ 
     /**
      * @Created by Pallavi
      * @Description Interacts with the 'FAQ' page element, validates the page title, and logs the verification message and page details.
@@ -108,16 +105,16 @@ public class FooterActionPage {
      */
     public void clickFAQ(ExtentTest test) {
         try {
-
+ 
             helper.waitForElementToBeVisible(FooterLocator.faq, 5);
             helper.hoverOverElement(FooterLocator.faq);
             helper.clickOnElement(FooterLocator.faq);
             String actualTitle = ExcelFileReader.readExcelData(path, "Pallavi", 3, 0);
-
+ 
             String expectedTitle = Base.driver.getTitle();
             Assertion.useAssert(actualTitle, expectedTitle, test);
             LoggerHandler.info(expectedTitle);
-            
+           
         } catch (Exception e) {
             LoggerHandler.error(e.getMessage());
             Hooks.test.log(Status.FAIL, e.getMessage());
@@ -126,7 +123,7 @@ public class FooterActionPage {
             Hooks.test.log(Status.INFO, e.getMessage());
         }
     }
-
+ 
     /**
      * @Created by Pallavi
      * @Description Interacts with the 'Return Policy' page element, validates the page title, and logs the verification message and page details.
@@ -135,16 +132,16 @@ public class FooterActionPage {
      */
     public void clickReturnPolicy(ExtentTest test) {
         try {
-
+ 
             helper.waitForElementToBeVisible(FooterLocator.returnPolicy, 5);
             helper.hoverOverElement(FooterLocator.returnPolicy);
             helper.clickOnElement(FooterLocator.returnPolicy);
             String actualTitle = ExcelFileReader.readExcelData(path, "Pallavi", 4, 0);
-
+ 
             String expectedTitle = Base.driver.getTitle();
             Assertion.useAssert(actualTitle, expectedTitle, test);
             LoggerHandler.info(expectedTitle);
-        
+       
         } catch (Exception e) {
             LoggerHandler.error(e.getMessage());
             Hooks.test.log(Status.FAIL, e.getMessage());
@@ -153,7 +150,7 @@ public class FooterActionPage {
             Hooks.test.log(Status.INFO, e.getMessage());
         }
     }
-
+ 
     /**
      * @Created by Pallavi
      * @Description Interacts with the 'Facebook' page element, performs the hover and click actions, and ensures the element is visible before interacting.
@@ -162,7 +159,7 @@ public class FooterActionPage {
      */
     public void clickFacebook(ExtentTest test) {
         try {
-
+ 
             helper.hoverOverElement(FooterLocator.facebook);
             helper.waitForElementToBeVisible(FooterLocator.facebook, 5);
             helper.clickOnElement(FooterLocator.facebook);
@@ -170,10 +167,10 @@ public class FooterActionPage {
             String Actual= ExcelFileReader.readExcelData(path, "Pallavi", 0, 1);
             String expected=ExcelFileReader.readExcelData(path, "Pallavi", 0, 1);
             Assertion.useAssert(Actual, expected, test);
-
+ 
             switchToParentWindow();
-            
-
+           
+ 
         } catch (Exception e) {
             LoggerHandler.error(e.getMessage());
             Hooks.test.log(Status.FAIL, e.getMessage());
@@ -181,9 +178,9 @@ public class FooterActionPage {
             LoggerHandler.info(e.getMessage());
             Hooks.test.log(Status.INFO, e.getMessage());
         }
-
+ 
     }
-
+ 
     /**
      * @Created by Pallavi
      * @Description Interacts with the 'YouTube' page element, performs hover and click actions, and ensures the element is visible before interacting.
@@ -200,7 +197,7 @@ public class FooterActionPage {
             String expected=ExcelFileReader.readExcelData(path, "Pallavi", 1, 1);
             Assertion.useAssert(Actual, expected, test);
             switchToParentWindow();
-
+ 
         } catch (Exception e) {
             LoggerHandler.error(e.getMessage());
             Hooks.test.log(Status.FAIL, e.getMessage());
@@ -208,9 +205,9 @@ public class FooterActionPage {
             LoggerHandler.info(e.getMessage());
             Hooks.test.log(Status.INFO, e.getMessage());
         }
-
+ 
     }
-
+ 
     /**
      * @Created by Pallavi
      * @Description Interacts with the 'Instagram' page element, performs hover and click actions, and ensures the element is visible before interacting.
@@ -227,7 +224,7 @@ public class FooterActionPage {
             String expected=ExcelFileReader.readExcelData(path, "Pallavi", 2, 1);
             Assertion.useAssert(Actual, expected, test);
             switchToParentWindow();
-            
+           
         } catch (Exception e) {
             LoggerHandler.error(e.getMessage());
             Hooks.test.log(Status.FAIL, e.getMessage());
@@ -235,9 +232,9 @@ public class FooterActionPage {
             LoggerHandler.info(e.getMessage());
             Hooks.test.log(Status.INFO, e.getMessage());
         }
-
+ 
     }
-
+ 
     /**
      * @Created by Pallavi
      * @Description Interacts with the 'Twitter' page element, performs hover and click actions, and ensures the element is visible before interacting.
@@ -254,7 +251,7 @@ public class FooterActionPage {
             String expected=ExcelFileReader.readExcelData(path, "Pallavi", 3, 1);
             Assertion.useAssert(Actual, expected, test);
             switchToParentWindow();
-            
+           
         } catch (Exception e) {
             LoggerHandler.error(e.getMessage());
             Hooks.test.log(Status.FAIL, e.getMessage());
@@ -262,11 +259,11 @@ public class FooterActionPage {
             LoggerHandler.info(e.getMessage());
             Hooks.test.log(Status.INFO, e.getMessage());
         }
-
+ 
     }
-
+ 
     public void switchToParentWindow() {
-
+ 
         try {
             String parent = Base.driver.getWindowHandle();
             Thread.sleep(2000);
@@ -278,7 +275,9 @@ public class FooterActionPage {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
+ 
     }
-
+ 
 }
+ 
+ 

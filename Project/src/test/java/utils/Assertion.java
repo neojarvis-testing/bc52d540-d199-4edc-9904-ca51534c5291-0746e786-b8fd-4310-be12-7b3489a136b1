@@ -1,6 +1,5 @@
 package utils;
 
-
 import org.junit.Assert;
 
 import com.aventstack.extentreports.ExtentTest;
@@ -21,7 +20,8 @@ public class Assertion {
         try {
             Assert.assertEquals(text, text1);
             LoggerHandler.info("Verification Successful: " + text1);
-            test.log(Status.INFO, "Verification Successful: " + text1);
+            test.log(Status.PASS, "Verification Successful: " + text1);
+            // Reporter.attachScreenshotToReport(text, test, text1, Base.driver);
         } catch (AssertionError e) {
             LoggerHandler.error("Assertion Error : Entered Wrong Credentials." + e.getMessage());
             test.log(Status.WARNING, "Entered Wrong Credentials." + e.getMessage());
@@ -46,9 +46,10 @@ public class Assertion {
     public static void assertionVerifyByContains(String actualText, String expectedText, ExtentTest test) {
         try {
             if (actualText.contains(expectedText)) {
-                Assert.assertTrue(true);
                 LoggerHandler.info("Verification Successful: " + actualText);
-                test.log(Status.INFO, "Verification Successful: " + actualText);
+                test.log(Status.PASS, "Verification Successful: " + actualText);
+                // Reporter.attachScreenshotToReport(actualText, test, expectedText, Base.driver);
+                Assert.assertTrue(true);
             }
         } catch (AssertionError e) {
             LoggerHandler.error("Assertion Error : Entered Wrong Credentials." + e.getMessage());

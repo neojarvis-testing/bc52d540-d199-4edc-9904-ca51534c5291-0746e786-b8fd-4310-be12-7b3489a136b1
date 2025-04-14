@@ -3,6 +3,7 @@ package pages;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
+import stepdefinition.Hooks;
 import uistore.NavBarLocator;
 import utils.Assertion;
 import utils.Base;
@@ -15,6 +16,14 @@ public class RacketActionPage {
         DriverHelper helper = new DriverHelper(Base.driver);
         String path = ReadProperties.prop.getProperty("path");
 
+        /**
+         * Created by Harshit Gupta
+         *
+         * Selects a racket through the search bar and verifies the selection.
+         *
+         * @param test ExtentTest instance for logging steps and validation.
+         * @return None
+         */
         public void selectRacket(ExtentTest test) {
                 try {
 
@@ -52,14 +61,24 @@ public class RacketActionPage {
                         Assertion.useAssert(actual, expected, test);
 
                 } catch (Exception e) {
-                        e.printStackTrace();
+                        LoggerHandler.info(e.getMessage());
+                        Hooks.test.log(Status.INFO, e.getMessage());
                 } catch (AssertionError e) {
-                        e.printStackTrace();
+                        LoggerHandler.info(e.getMessage());
+                        Hooks.test.log(Status.INFO, e.getMessage());
 
                 }
 
         }
 
+        /**
+         * Created by Harshit Gupta
+         *
+         * Applies filters on racket sports and removes the racket selection.
+         *
+         * @param test ExtentTest instance for logging steps and validation.
+         * @return None
+         */
         public void applyFilter(ExtentTest test) {
                 try {
                         helper.hoverOverElement(NavBarLocator.RocketSports);
@@ -100,13 +119,23 @@ public class RacketActionPage {
                         Assertion.useAssert(actual3, expected3, test);
 
                 } catch (Exception e) {
-                        e.printStackTrace();
+                        LoggerHandler.error(e.getMessage());
+                        Hooks.test.log(Status.FAIL, e.getMessage());
                 } catch (AssertionError e) {
-                        e.printStackTrace();
-
+                        LoggerHandler.info(e.getMessage());
+                        Hooks.test.log(Status.INFO, e.getMessage());
                 }
 
         }
+
+        /**
+         * Created by Harshit Gupta
+         *
+         * Selects the Clothing category from the navigation bar.
+         *
+         * @param test ExtentTest instance for logging steps and validation.
+         * @return None
+         */
 
         public void selectClothing(ExtentTest test) {
                 try {
@@ -120,13 +149,24 @@ public class RacketActionPage {
                                         ExcelFileReader.readExcelData(path, "Harshit",
                                                         8, 1));
                 } catch (Exception e) {
-                        e.printStackTrace();
+                        LoggerHandler.info(e.getMessage());
+                        Hooks.test.log(Status.INFO, e.getMessage());
                 } catch (AssertionError e) {
-                        e.printStackTrace();
+                        LoggerHandler.info(e.getMessage());
+                        Hooks.test.log(Status.INFO, e.getMessage());
 
                 }
 
         }
+
+        /**
+         * Created by Harshit Gupta
+         *
+         * Selects the Accessories category from the navigation bar.
+         *
+         * @param test ExtentTest instance for logging steps and validation.
+         * @return None
+         */
 
         public void selectAccessories(ExtentTest test) {
                 try {
@@ -140,48 +180,66 @@ public class RacketActionPage {
                                         ExcelFileReader.readExcelData(path, "Harshit",
                                                         9, 1));
                 } catch (Exception e) {
-                        e.printStackTrace();
+                        LoggerHandler.info(e.getMessage());
+                        Hooks.test.log(Status.INFO, e.getMessage());
                 } catch (AssertionError e) {
-                        e.printStackTrace();
+                        LoggerHandler.info(e.getMessage());
+                        Hooks.test.log(Status.INFO, e.getMessage());
 
                 }
 
         }
 
+        /**
+         * Created by Harshit Gupta
+         *
+         * Selects the Running category and clears all applied filters.
+         *
+         * @param test ExtentTest instance for logging steps and validation.
+         * @return None
+         */
         public void selectRunning(ExtentTest test) {
                 try {
-
                         helper.waitForElementToBeVisible(NavBarLocator.running, 5);
                         helper.hoverOverElement(NavBarLocator.running);
                         helper.clickOnElement(NavBarLocator.running);
-                        LoggerHandler.info(
-                                        ExcelFileReader.readExcelData(path, "Harshit",
-                                                        10, 1));
-                        test.log(Status.INFO,
-                                        ExcelFileReader.readExcelData(path, "Harshit",
-                                                        10, 1));
+                        LoggerHandler.info(ExcelFileReader.readExcelData(path, "Harshit", 10, 1));
+                        test.log(Status.INFO, ExcelFileReader.readExcelData(path, "Harshit", 10, 1));
+
                         helper.waitForElementToBeVisible(NavBarLocator.clearAll, 4);
                         helper.hoverOverElement(NavBarLocator.clearAll);
                         helper.clickOnElement(NavBarLocator.clearAll);
-                        LoggerHandler.info(
-                                        ExcelFileReader.readExcelData(path, "Harshit",
-                                                        11, 1));
-                        test.log(Status.INFO,
-                                        ExcelFileReader.readExcelData(path, "Harshit",
-                                                        11, 1));
-                        String actual4 = Base.driver.findElement(NavBarLocator.Text1).getText();
-                        String expected4 = ExcelFileReader.readExcelData(path,
-                                        "Harshit", 2, 0);
-                        Assertion.useAssert(actual4, expected4, test);
-                        test.log(Status.PASS,
-                                        ExcelFileReader.readExcelData(path, "Harshit",
-                                                        12, 1));
+                        LoggerHandler.info(ExcelFileReader.readExcelData(path, "Harshit", 11, 1));
+                        test.log(Status.INFO, ExcelFileReader.readExcelData(path, "Harshit", 11, 1));
 
                 } catch (Exception e) {
-                        e.printStackTrace();
+                        LoggerHandler.info(e.getMessage());
+                        Hooks.test.log(Status.INFO, e.getMessage());
+                }
+        }
+
+        /**
+         * Created by Harshit Gupta
+         *
+         * Verifies the Running category selection by asserting the expected text.
+         *
+         * @param test ExtentTest instance for logging steps and validation.
+         * @return None
+         */
+        public void verifyRunningSelection(ExtentTest test) {
+                try {
+                        String actualText = Base.driver.findElement(NavBarLocator.Text1).getText();
+                        String expectedText = ExcelFileReader.readExcelData(path, "Harshit", 2, 0);
+                        Assertion.useAssert(actualText, expectedText, test);
+                        test.log(Status.PASS, ExcelFileReader.readExcelData(path, "Harshit", 12, 1));
+
+                } catch (Exception e) {
+                        LoggerHandler.info(e.getMessage());
+                        Hooks.test.log(Status.INFO, e.getMessage());
 
                 } catch (AssertionError e) {
-                        e.printStackTrace();
+                        LoggerHandler.info(e.getMessage());
+                        Hooks.test.log(Status.INFO, e.getMessage());
 
                 }
 
