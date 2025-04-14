@@ -1,0 +1,71 @@
+2025-04-14 11:30:07,148 INFO  utils.LoggerHandler - Clicked on search bar
+2025-04-14 11:30:07,838 INFO  utils.LoggerHandler - Entered ADIDAS
+2025-04-14 11:30:08,672 INFO  utils.LoggerHandler - Clicked on Go Button
+2025-04-14 11:30:29,655 INFO  utils.LoggerHandler - Verification Successful: https://sportsjam.in/catalogsearch/result/?q=ADIDAS
+2025-04-14 11:30:30,230 INFO  utils.LoggerHandler - Clicked on Rocket Sports
+2025-04-14 11:30:31,813 INFO  utils.LoggerHandler - Clicked on Shoes
+2025-04-14 11:30:31,936 INFO  utils.LoggerHandler - Verification Successful: SEARCH RESULTS FOR: 'ADIDAS'
+2025-04-14 11:30:33,871 INFO  utils.LoggerHandler - Clicked on remove racket
+2025-04-14 11:30:33,951 INFO  utils.LoggerHandler - Verification Successful: SEARCH RESULTS FOR: 'ADIDAS'
+2025-04-14 11:30:35,665 INFO  utils.LoggerHandler - Clicked on Clothing
+2025-04-14 11:30:37,238 INFO  utils.LoggerHandler - Clicked on Accessories
+2025-04-14 11:30:37,863 INFO  utils.LoggerHandler - Clicked on Running
+2025-04-14 11:30:42,103 INFO  utils.LoggerHandler - Clicked on ClearAll
+2025-04-14 11:30:42,161 INFO  utils.LoggerHandler - Verification Successful: SEARCH RESULTS FOR: 'ADIDAS'
+2025-04-14 11:30:56,887 INFO  utils.LoggerHandler - Verification Successful: Buy Yonex, Babolat, Head, Li-Ning Badminton Rackets Online in India
+2025-04-14 11:31:03,123 INFO  utils.LoggerHandler - Verification Successful: Buy Yonex Arcsaber 2 Feel Badminton Racket (Strung, Black/Green) Online
+2025-04-14 11:31:03,366 INFO  utils.LoggerHandler - Verification Successful: ADD TO CART
+2025-04-14 11:31:06,023 INFO  utils.LoggerHandler - Verification Successful: SHOPPING CART
+2025-04-14 11:31:06,781 INFO  utils.LoggerHandler - Verification Successful: PRODUCT ADDED TO CART
+2025-04-14 11:31:27,552 INFO  utils.LoggerHandler - Verification Successful: Buy Yonex - Asics and Babolat Badminton Shoes Online in India
+2025-04-14 11:31:48,069 INFO  utils.LoggerHandler - Verification Successful: https://sportsjam.in/buy-clothing-online-india
+2025-04-14 11:31:48,289 INFO  utils.LoggerHandler - Verification Successful: CLOTHING
+2025-04-14 11:31:57,270 INFO  utils.LoggerHandler - Verification Successful: YOU ADDED PRODUCT YONEX MENS SHORTS (2692-JET BLACK) TO THE COMPARISON LIST.
+2025-04-14 11:32:01,062 INFO  utils.LoggerHandler - Verification Successful: YOU ADDED PRODUCT YONEX MENS SHORTS (2693-JET BLACK) TO THE COMPARISON LIST.
+2025-04-14 11:32:04,783 INFO  utils.LoggerHandler - Verification Successful: https://sportsjam.in/catalog/product_compare/
+2025-04-14 11:32:08,794 INFO  utils.LoggerHandler - Verification Successful: YOU REMOVED PRODUCT YONEX MENS SHORTS (2692-JET BLACK) FROM THE COMPARISON LIST.
+2025-04-14 11:32:12,852 INFO  utils.LoggerHandler - Verification Successful: YOU REMOVED PRODUCT YONEX MENS SHORTS (2693-JET BLACK) FROM THE COMPARISON LIST.
+2025-04-14 11:32:13,194 INFO  utils.LoggerHandler - Verification Successful: YOU HAVE NO ITEMS TO COMPARE.
+2025-04-14 11:32:30,191 INFO  utils.LoggerHandler - Verification Successful: https://sportsjam.in/sports/cricket-equipment-store-online-india/cricket-protective-gear-shop-online-india/batting-gloves-cricket-shop-online-india
+2025-04-14 11:32:30,446 INFO  utils.LoggerHandler - Verification Successful: Batting Gloves Protective Gear Cricket Sports
+2025-04-14 11:32:37,958 INFO  utils.LoggerHandler - Clicked on Batting Leg Guards
+2025-04-14 11:32:38,190 INFO  utils.LoggerHandler - Verification Successful: https://sportsjam.in/sports/cricket-equipment-store-online-india/cricket-protective-gear-shop-online-india/batting-leg-guards-shop-online-india
+2025-04-14 11:32:38,707 INFO  utils.LoggerHandler - Verification Successful: Batting Leg Guards Protective Gear Cricket Sports
+2025-04-14 11:32:46,405 INFO  utils.LoggerHandler - Verification Successful: https://sportsjam.in/sports/cricket-equipment-store-online-india/cricket-protective-gear-shop-online-india/wicket-keeping-gloves-cricket-shop-online-india
+2025-04-14 11:32:46,903 INFO  utils.LoggerHandler - Verification Successful: Wicket Keeping Gloves Protective Gear Cricket Sports
+2025-04-14 11:32:55,252 INFO  utils.LoggerHandler - Verification Successful: https://sportsjam.in/sports/cricket-equipment-store-online-india/cricket-protective-gear-shop-online-india/wicket-keeping-leg-guards-shop-online-india
+2025-04-14 11:32:55,760 INFO  utils.LoggerHandler - Verification Successful: Wicket Keeping Leg Guards Protective Gear Cricket Sports
+2025-04-14 11:33:04,193 INFO  utils.LoggerHandler - Verification Successful: https://sportsjam.in/sports/cricket-equipment-store-online-india/cricket-protective-gear-shop-online-india/cricket-helmets-shop-online-india
+2025-04-14 11:33:12,292 INFO  utils.LoggerHandler - Verification Successful: https://sportsjam.in/sports/cricket-equipment-store-online-india/cricket-protective-gear-shop-online-india/cricket-inner-thigh-pads-shop-online-india
+2025-04-14 11:33:12,852 INFO  utils.LoggerHandler - Verification Successful: Inner Thigh Pads Protective Gear Cricket Sports
+2025-04-14 11:33:54,090 INFO  utils.LoggerHandler - Verification Successful: SHOP NOW
+2025-04-14 11:34:13,648 INFO  utils.LoggerHandler - Verification Successful: THANK YOU FOR REGISTERING WITH SPORTSJAM.
+2025-04-14 11:34:17,140 INFO  utils.LoggerHandler - Verification Successful: You have signed out and will go to our homepage in 5 seconds.
+2025-04-14 11:34:31,135 INFO  utils.LoggerHandler - Verification Successful: THE ACCOUNT SIGN-IN WAS INCORRECT OR YOUR ACCOUNT IS DISABLED TEMPORARILY. PLEASE WAIT AND TRY AGAIN LATER.
+2025-04-14 11:34:42,508 INFO  utils.LoggerHandler - Verification Successful: Customer Login
+2025-04-14 11:34:42,676 INFO  utils.LoggerHandler - Customer Login
+2025-04-14 11:34:46,398 INFO  utils.LoggerHandler - Verification Successful: Delivery Information
+2025-04-14 11:34:46,786 INFO  utils.LoggerHandler - Delivery Information
+2025-04-14 11:34:49,935 INFO  utils.LoggerHandler - Verification Successful: Payment Options
+2025-04-14 11:34:50,257 INFO  utils.LoggerHandler - Payment Options
+2025-04-14 11:34:53,549 INFO  utils.LoggerHandler - Verification Successful: sportsjam frequently asked questions
+2025-04-14 11:34:53,882 INFO  utils.LoggerHandler - sportsjam frequently asked questions
+2025-04-14 11:34:57,093 INFO  utils.LoggerHandler - Verification Successful: returns policy
+2025-04-14 11:34:57,460 INFO  utils.LoggerHandler - returns policy
+2025-04-14 11:35:06,059 INFO  utils.LoggerHandler - Verification Successful: Sportsjam.in | Kolkata | Facebook
+2025-04-14 11:35:13,285 INFO  utils.LoggerHandler - Verification Successful: Sportsjam.in - YouTube
+2025-04-14 11:35:21,001 INFO  utils.LoggerHandler - Verification Successful: www.instagram.com
+2025-04-14 11:35:27,999 INFO  utils.LoggerHandler - Verification Successful: Sportsjam.in - Twitter
+2025-04-14 11:35:46,746 INFO  utils.LoggerHandler - Click on BRAND
+2025-04-14 11:35:47,340 INFO  utils.LoggerHandler - click on search bar
+2025-04-14 11:35:54,675 INFO  utils.LoggerHandler - Verification Successful: PUMA
+2025-04-14 11:36:30,760 INFO  utils.LoggerHandler - Verification Successful: PUMA WOMEN SPORT QUARTERS ASSORTED
+2025-04-14 11:36:47,673 INFO  utils.LoggerHandler - hover on shoes
+2025-04-14 11:37:07,298 INFO  utils.LoggerHandler - Verification Successful: BADMINTON SHOES
+2025-04-14 11:37:10,405 INFO  utils.LoggerHandler - Verification Successful: BADMINTON SHOES
+2025-04-14 11:37:14,462 INFO  utils.LoggerHandler - Verification Successful: BASKETBALL SHOES
+2025-04-14 11:37:19,406 INFO  utils.LoggerHandler - Verification Successful: CRICKET SHOES
+2025-04-14 11:37:24,577 INFO  utils.LoggerHandler - Verification Successful: FOOTBALL SHOES
+2025-04-14 11:37:25,006 INFO  utils.LoggerHandler - click on football
+2025-04-14 11:37:29,854 INFO  utils.LoggerHandler - Verification Successful: RUNNING SHOES
+2025-04-14 11:37:36,081 INFO  utils.LoggerHandler - Verification Successful: SQUASH SHOES
