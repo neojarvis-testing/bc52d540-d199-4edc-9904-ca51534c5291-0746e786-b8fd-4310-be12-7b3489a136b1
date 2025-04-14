@@ -21,7 +21,7 @@ public class Assertion {
             Assert.assertEquals(text, text1);
             LoggerHandler.info("Verification Successful: " + text1);
             test.log(Status.PASS, "Verification Successful: " + text1);
-            Reporter.attachScreenshotToReport(text, test, text1, Base.driver);
+            // Reporter.attachScreenshotToReport(text, test, text1, Base.driver);
         } catch (AssertionError e) {
             LoggerHandler.error("Assertion Error : Entered Wrong Credentials." + e.getMessage());
             test.log(Status.WARNING, "Entered Wrong Credentials." + e.getMessage());
@@ -48,7 +48,7 @@ public class Assertion {
             if (actualText.contains(expectedText)) {
                 LoggerHandler.info("Verification Successful: " + actualText);
                 test.log(Status.PASS, "Verification Successful: " + actualText);
-                Reporter.attachScreenshotToReport(actualText, test, expectedText, Base.driver);
+                // Reporter.attachScreenshotToReport(actualText, test, expectedText, Base.driver);
                 Assert.assertTrue(true);
             }
         } catch (AssertionError e) {
