@@ -319,7 +319,7 @@ public class HomepageActionPage {
       helper.clickOnElement(ProductsFilterLocator.firstProductwrong);
       helper.waitForElementToBeVisible(ProductsFilterLocator.OKClick, 10);
       helper.clickOnElement(ProductsFilterLocator.OKClick);
-      String actual13 = Base.driver.findElement(ProductDetailsLocator.verifyremoving2product).getText();
+      String actual13 = Base.driver.findElement(ProductDetailsLocator.verifyremoving1product).getText();
       String curr13 = ExcelFileReader.readExcelData(ReadProperties.prop.getProperty("path"), "Uday", 9, 1);
       Assertion.useAssert(actual13, curr13, test);
     } catch (Exception e) {

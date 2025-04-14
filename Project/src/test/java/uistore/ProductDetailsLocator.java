@@ -59,9 +59,7 @@ public class ProductDetailsLocator {
          public static By verifycompare1product=By.xpath("//div[contains(text(),'You added product Yonex Mens Shorts (2692-Jet Black) to the ')]");
          public static By verifycompare2product=By.xpath("//div[contains(text(),'You added product Yonex Mens Shorts (2693-Jet Black) to the ')]");
          public static By verifyremoving1product=By.xpath("//div[contains(text(),'You removed product Yonex Mens Shorts ')]");
-         public static By verifyremoving2product=By.xpath("//div[contains(text(),'You removed product Yonex Mens Shorts (2693-Jet Black) from the comparison list.')]");
          public static By afterremoveallproducts=By.xpath("//div[contains(text(),'You have no items to compare.')]");
-
   
 
 }
