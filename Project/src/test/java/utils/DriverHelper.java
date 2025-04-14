@@ -133,6 +133,7 @@ public class DriverHelper {
             for (String id : childIds) {
                 if (!parentId.equals(id)) {
                     driver.switchTo().window(id);
+                    break;
                 }
             }
         } catch (Exception e) {
